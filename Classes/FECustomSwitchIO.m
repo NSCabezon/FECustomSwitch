@@ -22,7 +22,6 @@
  THE SOFTWARE.
  */
 
-#import "UIColor+Helper.h"
 #import "FECustomSwitchIO.h"
 
 
@@ -32,12 +31,12 @@
 	[super initCommon];
 	onText = [UILabel new];
 	onText.text = NSLocalizedString(@"ON", @"Switch localized string");
-	onText.textColor = [UIColor colorWithHexString:@"c8c8c8"];
+	onText.textColor = [UIColor darkGrayColor];
 	onText.font = [UIFont boldSystemFontOfSize:14];
 	
 	offText = [UILabel new];
 	offText.text = NSLocalizedString(@"OFF", @"Switch localized string");
-	offText.textColor = [UIColor colorWithHexString:@"c8c8c8"];
+	offText.textColor = [UIColor lightGrayColor];
 	offText.font = [UIFont boldSystemFontOfSize:14];
 }
 

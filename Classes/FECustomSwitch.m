@@ -25,9 +25,6 @@
 #import "FECustomSwitch.h"
 #import <QuartzCore/QuartzCore.h>
 
-#import "AppDelegate.h"
-
-
 @interface FECustomSwitch ()
 - (void)regenerateImages;
 - (void)performSwitchToPercent:(float)toPercent;
