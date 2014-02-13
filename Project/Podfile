@@ -1,0 +1,7 @@
+pod "FECustomSwitch", :path => "../FECustomSwitch.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end

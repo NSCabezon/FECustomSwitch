@@ -7,7 +7,10 @@ Pod::Spec.new do |s|
   s.author       = { "Ivan Cabezon" => "nscabezon@gmail.com" }
   s.source       = { :git => "https://github.com/NSCabezon/FECustomSwitch.git", :tag => "1.0" }
   s.platform     = :ios
-  s.source_files = 'FECustomSwitch.{h,m}'
+  s.source_files = { 
+    :git => "https://github.com/NSCabezon/FECustomSwitch", 
+    :tag => "1.0"
+  }
   s.requires_arc = true
   
   s.ios.deployment_target = '5.0'
